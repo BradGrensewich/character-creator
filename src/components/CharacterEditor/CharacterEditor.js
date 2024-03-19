@@ -23,8 +23,9 @@ function App() {
 	const [skinColor, setSkinColor] = React.useState(defaultSkinColor);
 	const [clothesColor, setClothesColor] = React.useState(defaultClothesColor);
 
-	return (
+	return (    
 		<main className={styles.characterEditor}>
+      <div className={styles.decoration}></div>
 			<MaxWidthWrapper className={styles.maxWidthWrapper}>
 				<header className={styles.header}>
 					<h1 className={styles.title}>Create your Character</h1>
